@@ -9,3 +9,14 @@ C:\Users\HFGF\source\repos\ShopingBasket_OOP\ShopingBasket_OOP\obj\Debug\netcore
 C:\Users\HFGF\source\repos\ShopingBasket_OOP\ShopingBasket_OOP\obj\Debug\netcoreapp3.1\ShopingBasket_OOP.AssemblyInfo.cs
 C:\Users\HFGF\source\repos\ShopingBasket_OOP\ShopingBasket_OOP\obj\Debug\netcoreapp3.1\ShopingBasket_OOP.dll
 C:\Users\HFGF\source\repos\ShopingBasket_OOP\ShopingBasket_OOP\obj\Debug\netcoreapp3.1\ShopingBasket_OOP.pdb
+C:\Users\xycad\source\repos\BaskerExcercise\ShopingBasket_OOP\bin\Debug\netcoreapp3.1\ShopingBasket_OOP.exe
+C:\Users\xycad\source\repos\BaskerExcercise\ShopingBasket_OOP\bin\Debug\netcoreapp3.1\ShopingBasket_OOP.deps.json
+C:\Users\xycad\source\repos\BaskerExcercise\ShopingBasket_OOP\bin\Debug\netcoreapp3.1\ShopingBasket_OOP.runtimeconfig.json
+C:\Users\xycad\source\repos\BaskerExcercise\ShopingBasket_OOP\bin\Debug\netcoreapp3.1\ShopingBasket_OOP.runtimeconfig.dev.json
+C:\Users\xycad\source\repos\BaskerExcercise\ShopingBasket_OOP\bin\Debug\netcoreapp3.1\ShopingBasket_OOP.dll
+C:\Users\xycad\source\repos\BaskerExcercise\ShopingBasket_OOP\bin\Debug\netcoreapp3.1\ShopingBasket_OOP.pdb
+C:\Users\xycad\source\repos\BaskerExcercise\ShopingBasket_OOP\obj\Debug\netcoreapp3.1\ShopingBasket_OOP.csprojAssemblyReference.cache
+C:\Users\xycad\source\repos\BaskerExcercise\ShopingBasket_OOP\obj\Debug\netcoreapp3.1\ShopingBasket_OOP.AssemblyInfoInputs.cache
+C:\Users\xycad\source\repos\BaskerExcercise\ShopingBasket_OOP\obj\Debug\netcoreapp3.1\ShopingBasket_OOP.AssemblyInfo.cs
+C:\Users\xycad\source\repos\BaskerExcercise\ShopingBasket_OOP\obj\Debug\netcoreapp3.1\ShopingBasket_OOP.dll
+C:\Users\xycad\source\repos\BaskerExcercise\ShopingBasket_OOP\obj\Debug\netcoreapp3.1\ShopingBasket_OOP.pdb

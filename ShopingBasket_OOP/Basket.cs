@@ -7,8 +7,18 @@ namespace ShopingBasket_OOP
     class Basket
     {
         //public string Name { get; set; }
-        public List<Cloth> productList = new List<Cloth>();
-
+        double clothSum;
+        public List<Cloth> clothList = new List<Cloth>();
+        Cloth cloth = new Cloth();
+        public double TotalResult()
+        {
+            foreach (Cloth cPrice in clothList)
+            {
+                clothSum =+ cPrice.ProductPrice;
+            }
+            return clothSum;
+            
+        }
         
         
     }
