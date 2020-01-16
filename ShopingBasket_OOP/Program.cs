@@ -28,7 +28,7 @@ namespace ShopingBasket_OOP
 
             foreach (Cloth product in basket.productList)
             {
-                Console.WriteLine(product.ToString());
+                Console.WriteLine(product.ProductName);
             }
            
         }
