@@ -7,16 +7,16 @@ namespace ShopingBasket_OOP
         static void Main(string[] args)
         {
             Customer customer = new Customer();
-
+            Basket basket = new Basket();
             customer.CustomerName = "Thomas";
 
             Candy chokoBar = new Candy()
             {
                 Type = "Chocolate",
-                ProductName = "MyBAR",
+                ProductName = "Chokofant",
                 ProductPrice = 12.99
             };
-
+            basket.candyList.Add(chokoBar);
             
 
             Cloth cloth = new Cloth()
@@ -24,27 +24,35 @@ namespace ShopingBasket_OOP
                 Color = "red",
                 Size = 2,
                 ProductName = "Dress",
-                ProductPrice = 200.12
+                ProductPrice = 199.25
             };
             Cloth cloth2 = new Cloth()
             {
                 Color = "blue",
                 Size = 5,
                 ProductName = "Shorts",
-                ProductPrice = 502.93
+                ProductPrice = 499.95
             };
-            Basket basket = new Basket();
+            
             basket.clothList.Add(cloth);
             basket.clothList.Add(cloth2);
 
-            foreach (Cloth product in basket.clothList)
+            Console.WriteLine(customer.CustomerName);
+            foreach (Cloth c in basket.clothList)
             {
-                Console.WriteLine(product.ProductName);
-                Console.WriteLine(product.Size.ToString());
-                Console.WriteLine(product.Color);
-                //Console.WriteLine(basket.TotalResult().ToString());
+                Console.WriteLine(c.ProductName + ":     ProductName");
+                Console.WriteLine(c.Size.ToString() + ":     Size");
+                Console.WriteLine(c.Color);
+                Console.WriteLine(c.ProductPrice.ToString() + " kr");
+                Console.WriteLine("_________________________________________");
             }
-            Console.WriteLine(basket.TotalResult().ToString());
+            foreach (Candy c in basket.candyList)
+            {
+                Console.WriteLine(c.ProductName);
+                Console.WriteLine(c.ProductPrice.ToString() + " kr");
+                Console.WriteLine("_________________________________________");
+            }
+            Console.WriteLine("Total Amount: "+ basket.TotalResult().ToString() + " kr");
             Console.ReadLine();
         }
     }

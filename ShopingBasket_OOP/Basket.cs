@@ -9,14 +9,18 @@ namespace ShopingBasket_OOP
         //public string Name { get; set; }
         double clothSum;
         public List<Cloth> clothList = new List<Cloth>();
-        Cloth cloth = new Cloth();
+        public List<Candy> candyList = new List<Candy>();
         public double TotalResult()
         {
             foreach (Cloth cPrice in clothList)
             {
                 clothSum =+ cPrice.ProductPrice;
             }
-            return clothSum;
+            foreach (Candy c in candyList)
+            {
+                clothSum += c.ProductPrice;
+            }
+            return Math.Round(clothSum);
             
         }
         
