@@ -14,7 +14,7 @@ namespace ShopingBasket_OOP
         {
             foreach (Cloth cPrice in clothList)
             {
-                clothSum =+ cPrice.ProductPrice;
+                clothSum += cPrice.ProductPrice;
             }
             foreach (Candy c in candyList)
             {
