@@ -48,7 +48,7 @@ namespace ShopingBasket_OOP
             }
             foreach (Candy c in basket.candyList)
             {
-                Console.WriteLine(c.ProductName);
+                Console.WriteLine(c.ProductName + ":      ProductName");
                 Console.WriteLine(c.ProductPrice.ToString() + " kr");
                 Console.WriteLine("_________________________________________");
             }
