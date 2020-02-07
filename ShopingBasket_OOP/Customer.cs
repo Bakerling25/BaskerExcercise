@@ -8,10 +8,11 @@ namespace ShopingBasket_OOP
     {
         private string customerName;
         
-        public string CustomerName { get; set; }
-        public string PrintCustomer()
+        public string CustomerName
         {
-            return customerName;
-        } 
+            get {return customerName; }
+            set {customerName = value; }
+        }
+        
     }
 }

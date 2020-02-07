@@ -4,7 +4,7 @@ using System.Text;
 
 namespace ShopingBasket_OOP
 {
-    class Cloth:Product
+    class Cloth:Product// nedarver fra product klassen
     {
         private string color;
         private int size;

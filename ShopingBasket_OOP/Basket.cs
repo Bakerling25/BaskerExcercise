@@ -10,7 +10,7 @@ namespace ShopingBasket_OOP
         double clothSum;
         public List<Cloth> clothList = new List<Cloth>();
         public List<Candy> candyList = new List<Candy>();
-        public double TotalResult()
+        public double TotalResult()// returnere den totale pris for alle vare
         {
             foreach (Cloth cPrice in clothList)
             {
